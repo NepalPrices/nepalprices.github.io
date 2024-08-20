@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-adsense-account" content="ca-pub-4735648400097092">
+  <link rel="icon" type="image/icon" href="https://avatars.githubusercontent.com/u/175485634?s=200&v=4">
+  <title>Prices Nepal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+
+<body>
+  <!-- header  -->
+  <div class="bg-white pb-6 sm:pb-8 lg:pb-12">
+    <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+      <div id="header"></div>
+    </div>
+  </div>
+
+  <div class="bg-white">
+    <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+      <h2 class="mb-8 text-center text-2xl font-bold text-gray-800 md:mb-12 lg:text-3xl">Attributions</h2>
+
+
+      <div class="overflow-x-auto">
+        <table class="min-w-full divide-y-2 divide-gray-200 bg-white text-sm">
+          <thead class="rtl:text-right">
+            <tr>
+              <th class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Category</th>
+              <th class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Source</th>
+              <th class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Link</th>
+            </tr>
+          </thead>
+
+          <tbody class="divide-y divide-gray-200 text-center ">
+            <tr>
+              <td class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Vegetable</td>
+              <td class="whitespace-nowrap px-4 py-2 text-gray-700">Kalimati Tarkari Bajar</td>
+              <td class="whitespace-nowrap px-4 py-2">
+                <a href="https://kalimatimarket.gov.np/"
+                  class="inline-block rounded bg-indigo-600 px-4 py-2 text-xs font-medium text-white hover:bg-indigo-700">
+                  View
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Fuel</td>
+              <td class="whitespace-nowrap px-4 py-2 text-gray-700">Nepal Oil Corporation</td>
+              <td class="whitespace-nowrap px-4 py-2">
+                <a href="https://noc.org.np/"
+                  class="inline-block rounded bg-indigo-600 px-4 py-2 text-xs font-medium text-white hover:bg-indigo-700">
+                  View
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Yamaha</td>
+              <td class="whitespace-nowrap px-4 py-2 text-gray-700">Yamaha Nepal</td>
+              <td class="whitespace-nowrap px-4 py-2">
+                <a href="https://www.maw2wheelers.com/"
+                  class="inline-block rounded bg-indigo-600 px-4 py-2 text-xs font-medium text-white hover:bg-indigo-700">
+                  View
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Bajaj</td>
+              <td class="whitespace-nowrap px-4 py-2 text-gray-700">Bajaj Nepal</td>
+              <td class="whitespace-nowrap px-4 py-2">
+                <a href="https://nepal.globalbajaj.com/en"
+                  class="inline-block rounded bg-indigo-600 px-4 py-2 text-xs font-medium text-white hover:bg-indigo-700">
+                  View
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">TVS</td>
+              <td class="whitespace-nowrap px-4 py-2 text-gray-700">TVS Nepal</td>
+              <td class="whitespace-nowrap px-4 py-2">
+                <a href="https://tvsnepal.com/"
+                  class="inline-block rounded bg-indigo-600 px-4 py-2 text-xs font-medium text-white hover:bg-indigo-700">
+                  View
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Gold</td>
+              <td class="whitespace-nowrap px-4 py-2 text-gray-700">FINEGOSIDA</td>
+              <td class="whitespace-nowrap px-4 py-2">
+                <a href="https://www.fenegosida.org/"
+                  class="inline-block rounded bg-indigo-600 px-4 py-2 text-xs font-medium text-white hover:bg-indigo-700">
+                  View
+                </a>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-4" id="footer"></div>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4735648400097092"
+    crossorigin="anonymous"></script>
+
+  <script>
+    function loadHTMLComponent(id, filePath) {
+      fetch(filePath)
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById(id).innerHTML = data;
+        });
+    }
+
+    loadHTMLComponent('header', 'components/header.html');
+    loadHTMLComponent('footer', 'components/footer.html');
+  </script>
+</body>
+
+</html>
