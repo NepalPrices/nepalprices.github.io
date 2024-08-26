@@ -1,139 +1,394 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Stay informed with the latest prices of fuel, vegetables, gold, electronics, and more in Nepal. Nepal Prices provides real-time updates to help you make informed decisions."
+    />
+    <meta
+      name="keywords"
+      content="Nepal prices, commodity prices, fuel prices, vegetable prices, gold prices, electronics prices, Nepal, up-to-date prices, bajaj prices,"
+    />
+    <meta name="author" content="Nepal Prices" />
+    <meta name="robots" content="index, follow" />
+    <meta name="google-adsense-account" content="ca-pub-4735648400097092" />
+    <link
+      rel="icon"
+      type="image/icon"
+      href="https://avatars.githubusercontent.com/u/175485634?s=200&v=4"
+    />
+    <title>Prices Nepal - Check latest prices in Nepal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="Stay informed with the latest prices of fuel, vegetables, gold, electronics, and more in Nepal. Nepal Prices provides real-time updates to help you make informed decisions.">
-  <meta name="keywords"
-    content="Nepal prices, commodity prices, fuel prices, vegetable prices, gold prices, electronics prices, Nepal, up-to-date prices, bajaj prices,">
-  <meta name="author" content="Nepal Prices">
-  <meta name="robots" content="index, follow">
-  <meta name="google-adsense-account" content="ca-pub-4735648400097092">
-  <link rel="icon" type="image/icon" href="https://avatars.githubusercontent.com/u/175485634?s=200&v=4">
-  <title>Prices Nepal - Check latest prices in Nepal</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-</head>
+  <body>
+    <!-- header  -->
+    <div class="bg-white pb-6 sm:pb-8 lg:pb-12">
+      <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+        <div id="header"></div>
 
-<body>
-  <!-- header  -->
-  <div class="bg-white pb-6 sm:pb-8 lg:pb-12">
-    <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
-      <div id="header"></div>
+        <section
+          class="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row"
+        >
+          <!-- content - start -->
+          <div
+            class="flex flex-col items-center justify-center sm:text-center lg:items-start lg:py-12 lg:text-left xl:w-5/12 xl:py-24"
+          >
+            <h1
+              class="mb-8 text-4xl font-bold text-black sm:text-5xl md:mb-12 md:text-6xl"
+            >
+              Get the latest prices of commodities in Nepal
+            </h1>
 
-      <section class="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row">
-        <!-- content - start -->
-        <div
-          class="flex flex-col items-center justify-center sm:text-center lg:items-start lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
-          <h1 class="mb-8 text-4xl font-bold text-black sm:text-5xl md:mb-12 md:text-6xl">Get the latest prices of
-            commodities in Nepal</h1>
-
-          <p class="mb-8 leading-relaxed text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg">Know the prices of Fuels,
-            Jewellery, Commodities, Vehicles, Smartphones, etc.</p>
-        </div>
-        <!-- content - end -->
-
-        <!-- image - start -->
-        <div class="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-5/12">
-          <img
-            src="https://static.vecteezy.com/system/resources/previews/036/194/243/non_2x/inflation-concept-consumer-price-index-growth-and-financial-crisis-concept-the-character-buys-food-at-the-supermarket-and-is-worried-about-rising-food-prices-flat-illustration-vector.jpg"
-            loading="lazy" alt="Photo by Fakurian Design" class="h-full w-full object-cover object-center" />
-        </div>
-        <!-- image - end -->
-      </section>
-    </div>
-  </div>
-
-  <div class="bg-white py-6 sm:py-8 lg:py-12">
-    <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
-      <h2 class="mb-8 text-center text-2xl font-bold text-gray-800 md:mb-12 lg:text-3xl">Check Commodity Prices in Nepal</h2>
-
-      <div class="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-4">
-
-        <!-- product - start -->
-        <div>
-          <a href="/fuel.html"
-            class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+            <p
+              class="mb-8 leading-relaxed text-gray-500 md:mb-12 lg:w-4/5 xl:text-lg"
+            >
+              Know the prices of Fuels, Jewellery, Vegetables, Bikes, Cars and
+              more in Nepal. Get the latest prices and be informed. Our aim is
+              to help you make informed decisions.
+            </p>
+          </div>
+          <!-- content - end -->
+          <!-- image - start -->
+          <div
+            class="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-5/12"
+          >
             <img
-              src="https://images.unsplash.com/photo-1598185770201-9a0d00034e04?auto=format&q=75&fit=crop&w=600&h=700"
-              loading="lazy" alt="Photo by Austin Wade"
-              class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+              src="https://static.vecteezy.com/system/resources/previews/036/194/243/non_2x/inflation-concept-consumer-price-index-growth-and-financial-crisis-concept-the-character-buys-food-at-the-supermarket-and-is-worried-about-rising-food-prices-flat-illustration-vector.jpg"
+              loading="lazy"
+              alt="Photo by Fakurian Design"
+              class="h-full w-full object-cover object-center"
+            />
+          </div>
+          <!-- image - end -->
+        </section>
 
-            <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
-              <span class="text-lg font-bold text-gray-800 lg:text-xl">Fuel</span>
+        <!-- description start  -->
+        <section>
+          <section>
+            <div
+              class="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16"
+            >
+              <div
+                class="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16"
+              >
+                <div
+                  class="mx-auto max-w-lg text-center lg:mx-0 ltr:lg:text-left rtl:lg:text-right"
+                >
+                  <h2 class="text-3xl font-bold sm:text-4xl">
+                    Why Prices Nepal?
+                  </h2>
+
+                  <p class="mt-4 text-gray-600">
+                    At Prices Nepal, we believe in transparency. We want
+                    everyone to be informed with the latest prices. Prices Nepal
+                    provides real-time updates to help you make informed
+                    decisions.
+                  </p>
+
+                  <a
+                    href="#commodities"
+                    class="mt-8 inline-block rounded bg-purple-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-purple-700 focus:outline-none focus:ring focus:ring-yellow-400"
+                  >
+                    See Latest Prices
+                  </a>
+                </div>
+
+                <div class="grid grid-cols-2 gap-4 sm:grid-cols-3">
+                  <a
+                    class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+                    href="/bike-prices.html"
+                  >
+                    <span class="inline-block rounded-lg bg-gray-50 p-3">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="-0.5 -0.5 24 24"
+                        height="24"
+                        width="24"
+                        id="Two-Wheeler-Fill--Streamline-Rounded-Fill---Material-Symbols"
+                      >
+                        <path
+                          fill="#000"
+                          d="M3.761458333333333 18.208333333333336C2.7232622916666664 18.208333333333336 1.8368039583333335 17.84498125 1.1020833333333333 17.11822916666667C0.36736127083333336 16.391477083333335 0 15.501041666666667 0 14.446875C0 13.392708333333333 0.36336789583333334 12.502272916666668 1.0901041666666667 11.775520833333333C1.816841875 11.04876875 2.6993039583333336 10.685416666666667 3.7375000000000003 10.685416666666667L2.6114583333333337 9.822916666666668H0.5989583333333334C0.4232637291666667 9.822916666666668 0.27951372916666667 9.766997916666666 0.16770833333333332 9.655208333333333C0.055902937500000006 9.543418749999999 0 9.399668750000002 0 9.223958333333334C0 9.048247916666666 0.055902937500000006 8.904497916666667 0.16770833333333332 8.792708333333334C0.27951372916666667 8.680918750000002 0.4232637291666667 8.625 0.5989583333333334 8.625H4.336458333333334L6.708333333333334 10.0625L10.278125 8.720833333333333C10.358002083333334 8.688872916666666 10.441856249999999 8.664914583333335 10.529687500000001 8.648958333333335C10.61751875 8.633002083333334 10.701372916666667 8.625 10.78125 8.625H13.871875000000001L12.003125 6.229166666666667H10.589583333333334C10.381960416666667 6.229166666666667 10.210227083333333 6.1612687500000005 10.074479166666666 6.025520833333333C9.938731250000002 5.889772916666667 9.870833333333334 5.718039583333333 9.870833333333334 5.510416666666667C9.870833333333334 5.30279375 9.938731250000002 5.131060416666666 10.074479166666666 4.995312500000001C10.210227083333333 4.859564583333333 10.381960416666667 4.791666666666667 10.589583333333334 4.791666666666667H12.027083333333335C12.250710416666667 4.791666666666667 12.462310416666666 4.839583333333334 12.661979166666667 4.935416666666667C12.861647916666668 5.03125 13.02533125 5.166997916666667 13.153125 5.342708333333333L14.782291666666667 7.451041666666668L17.345833333333335 6.18125C17.473627083333337 6.117377083333333 17.59341875 6.121354166666667 17.705208333333335 6.193229166666668C17.81699791666667 6.265104166666666 17.872916666666665 6.364914583333334 17.872916666666665 6.492708333333334V8.05C17.872916666666665 8.145833333333334 17.83697916666667 8.2296875 17.765104166666667 8.3015625C17.693229166666665 8.373437500000001 17.609375 8.409375 17.513541666666665 8.409375H15.525L17.561458333333334 11.044791666666667C17.833002083333337 10.933002083333335 18.104497916666666 10.849147916666666 18.37604166666667 10.793229166666666C18.647585416666665 10.737310416666668 18.927083333333336 10.709375000000001 19.214583333333334 10.709375000000001C20.26875 10.709375000000001 21.16321041666667 11.072727083333334 21.897916666666667 11.799479166666668C22.632622916666666 12.52623125 23 13.416666666666668 23 14.470833333333333C23 15.525 22.632622916666666 16.411458333333336 21.897916666666667 17.130208333333336C21.16321041666667 17.848958333333336 20.26875 18.208333333333336 19.214583333333334 18.208333333333336C18.17637291666667 18.208333333333336 17.293939583333337 17.84498125 16.567187500000003 17.11822916666667C15.840435416666669 16.391477083333335 15.477083333333333 15.509043750000002 15.477083333333333 14.470833333333333C15.477083333333333 13.991666666666667 15.55696041666667 13.536458333333334 15.716666666666667 13.105208333333335C15.876372916666666 12.673958333333333 16.11595625 12.282622916666666 16.435416666666665 11.93125L15.596874999999999 10.853125L12.314583333333333 15.860416666666667C12.23470625 15.956249999999999 12.146875000000001 16.036127083333337 12.051041666666666 16.1C11.955208333333333 16.163872916666666 11.84341875 16.195833333333333 11.715625 16.195833333333333H9.751041666666667C9.671164583333333 16.195833333333333 9.587310416666666 16.179877083333334 9.499479166666667 16.147916666666667C9.411647916666666 16.11595625 9.32779375 16.068039583333334 9.247916666666667 16.004166666666666L7.522916666666666 14.446875C7.522916666666666 15.501041666666667 7.159564583333334 16.391477083333335 6.432812500000001 17.11822916666667C5.706060416666667 17.84498125 4.815625000000001 18.208333333333336 3.761458333333333 18.208333333333336ZM3.761458333333333 16.770833333333336C4.416321041666667 16.770833333333336 4.967377083333333 16.543229166666666 5.414583333333334 16.088020833333335C5.8617895833333336 15.6328125 6.085416666666666 15.085747916666667 6.085416666666666 14.446875C6.085416666666666 13.808002083333335 5.8617895833333336 13.2609375 5.414583333333334 12.805729166666667C4.967377083333333 12.350520833333333 4.416321041666667 12.122916666666667 3.761458333333333 12.122916666666667C3.1225710416666668 12.122916666666667 2.5755208333333335 12.34654375 2.1203125 12.79375C1.6651041666666668 13.24095625 1.4375 13.791997916666668 1.4375 14.446875C1.4375 15.101752083333334 1.6651041666666668 15.65279375 2.1203125 16.1C2.5755208333333335 16.54720625 3.1225710416666668 16.770833333333336 3.761458333333333 16.770833333333336ZM19.214583333333334 16.770833333333336C19.86946041666667 16.770833333333336 20.424479166666668 16.54720625 20.879687500000003 16.1C21.334895833333334 15.65279375 21.5625 15.10970625 21.5625 14.470833333333333C21.5625 13.815956250000001 21.334895833333334 13.2609375 20.879687500000003 12.805729166666667C20.424479166666668 12.350520833333333 19.86946041666667 12.122916666666667 19.214583333333334 12.122916666666667C18.575710416666666 12.122916666666667 18.032622916666668 12.350520833333333 17.585416666666667 12.805729166666667C17.138210416666666 13.2609375 16.914583333333333 13.815956250000001 16.914583333333333 14.470833333333333C16.914583333333333 15.10970625 17.138210416666666 15.65279375 17.585416666666667 16.1C18.032622916666668 16.54720625 18.575710416666666 16.770833333333336 19.214583333333334 16.770833333333336Z"
+                          stroke-width="1"
+                        ></path>
+                      </svg>
+                    </span>
+
+                    <h2 class="mt-2 font-bold">Bike</h2>
+
+                    <p
+                      class="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600"
+                    >
+                      See bike prices of Yamaha, Bajaj, Hero, Royal Enfield,
+                      Suzuki, Honda and many more.
+                    </p>
+                  </a>
+
+                  <a
+                    class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+                    href="car-prices.html"
+                  >
+                    <span class="inline-block rounded-lg bg-gray-50 p-3">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="-0.5 -0.5 24 24"
+                        height="24"
+                        width="24"
+                        id="Directions-Car-Fill--Streamline-Rounded-Fill---Material-Symbols"
+                      >
+                        <path
+                          fill="#000"
+                          d="M4.791666666666667 18.1125V19.166666666666668C4.791666666666667 19.432939583333336 4.6979081250000005 19.659154166666667 4.510395833333334 19.84540625C4.323041666666667 20.031802083333336 4.0954375 20.125 3.8275833333333336 20.125C3.559887291666667 20.125 3.334199791666667 20.031802083333336 3.1505208333333337 19.84540625C2.966841875 19.659154166666667 2.875 19.432939583333336 2.875 19.166666666666668V11.883333333333335C2.875 11.808727083333334 2.8789914583333336 11.734216666666669 2.886979166666667 11.659802083333334C2.894966875 11.585195833333334 2.9149289583333333 11.508002083333334 2.9468750000000004 11.428125000000001L4.815625000000001 5.773958333333334C4.911458333333334 5.470502083333334 5.085156250000001 5.230918750000001 5.33671875 5.055208333333334C5.58828125 4.879497916666667 5.869791666666667 4.791666666666667 6.18125 4.791666666666667H16.81875C17.130208333333336 4.791666666666667 17.41171875 4.879497916666667 17.66328125 5.055208333333334C17.914843750000003 5.230918750000001 18.088541666666668 5.470502083333334 18.184375000000003 5.773958333333334L20.053125 11.428125000000001C20.08508541666667 11.508002083333334 20.105018750000003 11.585195833333334 20.113020833333334 11.659802083333334C20.121022916666668 11.734216666666669 20.125 11.808727083333334 20.125 11.883333333333335V19.166666666666668C20.125 19.432939583333336 20.031227083333334 19.659154166666667 19.843729166666666 19.84540625C19.656375 20.031802083333336 19.42877083333333 20.125 19.16091666666667 20.125C18.89320625 20.125 18.663541666666667 20.029502083333334 18.471875 19.838458333333335C18.280208333333334 19.647414583333337 18.184375000000003 19.415497916666666 18.184375000000003 19.142708333333335V18.1125H4.791666666666667ZM4.863541666666667 10.20625H18.136458333333334L16.81875 6.229166666666667H6.18125L4.863541666666667 10.20625ZM6.846333333333334 15.477083333333333C7.21754375 15.477083333333333 7.52689375 15.351302083333335 7.7744791666666675 15.099739583333333C8.022064583333334 14.848177083333335 8.145833333333334 14.542708333333335 8.145833333333334 14.183333333333335C8.145833333333334 13.810685416666667 8.020052083333335 13.493908333333334 7.768489583333333 13.23290625C7.516927083333334 12.972095833333332 7.211458333333334 12.841666666666667 6.852083333333334 12.841666666666667C6.479435416666667 12.841666666666667 6.162658333333334 12.971520833333335 5.90165625 13.231229166666667C5.640845833333334 13.49108125 5.510416666666667 13.806564583333333 5.510416666666667 14.177583333333335C5.510416666666667 14.548793750000002 5.640270833333334 14.85814375 5.899979166666667 15.105729166666666C6.15983125 15.353314583333333 6.475314583333334 15.477083333333333 6.846333333333334 15.477083333333333ZM16.171875 15.477083333333333C16.54452291666667 15.477083333333333 16.8613 15.351302083333335 17.122302083333334 15.099739583333333C17.3831125 14.848177083333335 17.513541666666665 14.542708333333335 17.513541666666665 14.183333333333335C17.513541666666665 13.810685416666667 17.3836875 13.493908333333334 17.12397916666667 13.23290625C16.864127083333333 12.972095833333332 16.54864375 12.841666666666667 16.177625000000003 12.841666666666667C15.806414583333332 12.841666666666667 15.497064583333335 12.971520833333335 15.249479166666667 13.231229166666667C15.00189375 13.49108125 14.878125 13.806564583333333 14.878125 14.177583333333335C14.878125 14.548793750000002 15.00390625 14.85814375 15.25546875 15.105729166666666C15.507031249999999 15.353314583333333 15.8125 15.477083333333333 16.171875 15.477083333333333Z"
+                          stroke-width="1"
+                        ></path>
+                      </svg>
+                    </span>
+
+                    <h2 class="mt-2 font-bold">Car Prices</h2>
+
+                    <p
+                      class="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600"
+                    >
+                      See car prices of Suzuki, Hyundai, Tata, Toyota, BYD and
+                      more in Nepal.
+                    </p>
+                  </a>
+
+                  <a
+                    class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+                    href="gold-prices.html"
+                  >
+                    <span class="inline-block rounded-lg bg-gray-50 p-3">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="-0.5 -0.5 24 24"
+                        height="24"
+                        width="24"
+                        id="Diamond-Fill--Streamline-Rounded-Fill---Material-Symbols"
+                      >
+                        <path
+                          fill="#000"
+                          d="M8.577035416666666 8.026041666666668H14.422868750000001L11.907243750000001 2.875H11.092660416666666L8.577035416666666 8.026041666666668ZM10.900993750000001 19.40625V9.223958333333334H2.4197437500000003L10.900993750000001 19.40625ZM12.098910416666667 19.40625L20.58016041666667 9.223958333333334H12.098910416666667V19.40625ZM15.764535416666668 8.026041666666668H20.771827083333335L18.61557708333333 3.6656250000000004C18.487783333333333 3.426041666666667 18.308095833333333 3.234375 18.07651458333333 3.090625C17.844933333333334 2.9468750000000004 17.593370833333335 2.875 17.321827083333336 2.875H13.248910416666666L15.764535416666668 8.026041666666668ZM2.2280770833333334 8.026041666666668H7.23536875L9.750993750000001 2.875H5.678077083333333C5.406533333333334 2.875 5.1549708333333335 2.9468750000000004 4.923389583333334 3.090625C4.691793958333333 3.234375 4.512106458333333 3.426041666666667 4.384327083333334 3.6656250000000004L2.2280770833333334 8.026041666666668Z"
+                          stroke-width="1"
+                        ></path>
+                      </svg>
+                    </span>
+
+                    <h2 class="mt-2 font-bold">Gold</h2>
+
+                    <p
+                      class="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600"
+                    >
+                      See gold and silver prices in Nepal.
+                    </p>
+                  </a>
+
+                  <a
+                    class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+                    href="fuel-prices.html"
+                  >
+                    <span class="inline-block rounded-lg bg-gray-50 p-3">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="-0.5 -0.5 24 24"
+                        height="24"
+                        width="24"
+                        id="Local-Gas-Station-Fill--Streamline-Rounded-Fill---Material-Symbols"
+                      >
+                        <path
+                          fill="#000"
+                          d="M3.8333333333333335 19.40625V4.3125C3.8333333333333335 3.9291666666666667 3.9770833333333337 3.59375 4.264583333333333 3.3062500000000004C4.552083333333334 3.01875 4.8875 2.875 5.270833333333334 2.875H11.715625C12.098958333333334 2.875 12.434375 3.01875 12.721875 3.3062500000000004C13.009375 3.59375 13.153125 3.9291666666666667 13.153125 4.3125V11.2125H14.710416666666667C15.039939583333334 11.2125 15.321929166666667 11.3298 15.556385416666666 11.564447916666667C15.791033333333333 11.798904166666667 15.908333333333335 12.08089375 15.908333333333335 12.410416666666666V17.65729166666667C15.908333333333335 18.003585416666667 16.032102083333335 18.29376875 16.2796875 18.5279375C16.527272916666668 18.762106250000002 16.826752083333336 18.879166666666666 17.178125 18.879166666666666C17.529497916666667 18.879166666666666 17.828977083333335 18.762106250000002 18.0765625 18.5279375C18.324147916666668 18.29376875 18.447916666666668 18.003585416666667 18.447916666666668 17.65729166666667V10.589583333333334C18.27220625 10.685416666666667 18.088541666666668 10.757291666666667 17.896875 10.805208333333335C17.705208333333335 10.853125 17.513541666666665 10.877083333333333 17.321875 10.877083333333333C16.691291666666668 10.877083333333333 16.158314583333333 10.659397916666666 15.722895833333336 10.223979166666666C15.287477083333334 9.788560416666668 15.069791666666667 9.255583333333334 15.069791666666667 8.625C15.069791666666667 8.120102083333334 15.213541666666668 7.666427083333334 15.501041666666667 7.263927083333334C15.788541666666669 6.861570833333334 16.171875 6.59654375 16.651041666666668 6.46875L14.80625 4.623958333333333C14.67845625 4.501928958333333 14.614583333333334 4.359616458333334 14.614583333333334 4.197020833333334C14.614583333333334 4.034425208333333 14.67845625 3.889237708333333 14.80625 3.761458333333333C14.93404375 3.6336789583333333 15.07779375 3.5737831250000003 15.2375 3.581770833333333C15.39720625 3.589758541666667 15.540956250000002 3.6576372916666666 15.668750000000003 3.785416666666667L18.903125000000003 7.019791666666667C19.126752083333333 7.24341875 19.306439583333333 7.486979166666667 19.442187500000003 7.750520833333334C19.577935416666666 8.014062500000001 19.645833333333336 8.305539583333335 19.645833333333336 8.625V17.65729166666667C19.645833333333336 18.34825 19.4076875 18.932258333333337 18.931395833333333 19.409364583333335C18.455247916666668 19.886470833333334 17.87229375 20.125 17.182437500000002 20.125C16.492772916666667 20.125 15.908333333333335 19.886470833333334 15.429166666666669 19.409364583333335C14.950000000000001 18.932258333333337 14.710416666666667 18.34825 14.710416666666667 17.65729166666667V12.410416666666666H13.153125V19.40625C13.153125 19.609895833333333 13.084268750000001 19.780575 12.946604166666667 19.918239583333335C12.808747916666668 20.056095833333334 12.638020833333334 20.125 12.434375 20.125H4.552083333333334C4.3484375 20.125 4.177772708333333 20.056095833333334 4.0400937500000005 19.918239583333335C3.9022518749999997 19.780575 3.8333333333333335 19.609895833333333 3.8333333333333335 19.40625ZM5.270833333333334 9.775H11.715625V4.3125H5.270833333333334V9.775ZM17.321875 9.679166666666667C17.609375 9.679166666666667 17.856960416666666 9.57533125 18.064583333333335 9.367708333333335C18.27220625 9.160085416666668 18.37604166666667 8.912500000000001 18.37604166666667 8.625C18.37604166666667 8.3375 18.27220625 8.089914583333332 18.064583333333335 7.882291666666666C17.856960416666666 7.67466875 17.609375 7.570833333333334 17.321875 7.570833333333334C17.034375 7.570833333333334 16.786789583333334 7.67466875 16.57916666666667 7.882291666666666C16.37154375 8.089914583333332 16.267708333333335 8.3375 16.267708333333335 8.625C16.267708333333335 8.912500000000001 16.37154375 9.160085416666668 16.57916666666667 9.367708333333335C16.786789583333334 9.57533125 17.034375 9.679166666666667 17.321875 9.679166666666667Z"
+                          stroke-width="1"
+                        ></path>
+                      </svg>
+                    </span>
+
+                    <h2 class="mt-2 font-bold">Fuel Prices</h2>
+
+                    <p
+                      class="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600"
+                    >
+                      Check the latest prices of Petrol, Diesel, LP Gas cylinder
+                      and more in Nepal.
+                    </p>
+                  </a>
+
+                  <a
+                    class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+                    href="vegetable-prices.html"
+                  >
+                    <span class="inline-block rounded-lg bg-gray-50 p-3">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="-0.5 -0.5 24 24"
+                        height="24"
+                        width="24"
+                        id="Nutrition-Fill--Streamline-Rounded-Fill---Material-Symbols"
+                      >
+                        <path
+                          fill="#000"
+                          d="M11.5 20.12485625C9.631250000000001 20.12485625 8.046022916666667 19.474004166666667 6.744270833333333 18.172252083333333C5.4425187500000005 16.8705 4.791666666666667 15.285272916666667 4.791666666666667 13.416522916666667C4.791666666666667 11.819316666666667 5.2828125 10.409752083333332 6.265104166666666 9.187877083333335C7.247395833333334 7.966002083333334 8.513210416666666 7.187356250000001 10.0625 6.851939583333333C9.519460416666668 6.75610625 9.040293750000002 6.5524604166666665 8.625 6.241002083333333C8.20970625 5.929543750000001 7.858333333333333 5.550187500000001 7.570833333333334 5.10298125C7.283333333333333 4.655765416666666 7.067708333333334 4.1566318749999995 6.923958333333333 3.6055902083333335C6.780208333333333 3.054548541666667 6.708333333333334 2.4915277083333334 6.708333333333334 1.9165277083333334C7.395122916666667 1.8845816666666668 8.041997916666666 1.9923941666666667 8.648958333333335 2.2399652083333335C9.255918750000001 2.48753625 9.79095625 2.826944375 10.254166666666666 3.258194375C10.717377083333334 3.689444375 11.080729166666668 4.200557083333333 11.344270833333335 4.791527708333334C11.607812500000001 5.382479166666667 11.73158125 6.0214 11.715625 6.708189583333334C11.939252083333333 6.0214 12.2546875 5.382479166666667 12.661979166666667 4.791527708333334C13.069270833333333 4.200557083333333 13.52845625 3.649515416666667 14.039583333333335 3.1384027083333335C14.183333333333335 2.9946527083333336 14.351041666666667 2.9227777083333333 14.542708333333335 2.9227777083333333C14.734375 2.9227777083333333 14.902083333333335 2.9946527083333336 15.045833333333333 3.1384027083333335C15.189583333333333 3.2821527083333333 15.261458333333335 3.4498610416666664 15.261458333333335 3.6415277083333333C15.261458333333335 3.833194375 15.189583333333333 4.000902708333333 15.045833333333333 4.144652708333334C14.646543750000001 4.543956666666667 14.287168750000001 4.9751875 13.967708333333333 5.438397916666667C13.648247916666667 5.901608333333334 13.376752083333333 6.388729166666667 13.153125 6.89985625C14.654497916666667 7.283189583333334 15.872395833333334 8.077791666666668 16.806770833333335 9.283710416666667C17.741145833333334 10.489629166666667 18.208333333333336 11.867233333333335 18.208333333333336 13.416522916666667C18.208333333333336 15.285272916666667 17.557481250000002 16.8705 16.255729166666665 18.172252083333333C14.953977083333335 19.474004166666667 13.36875 20.12485625 11.5 20.12485625Z"
+                          stroke-width="1"
+                        ></path>
+                      </svg>
+                    </span>
+
+                    <h2 class="mt-2 font-bold">Vegetable Prices</h2>
+
+                    <p
+                      class="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600"
+                    >
+                      Check the latest prices of vegetables in Nepal. See prices
+                      for tomato, potato, onion, carrot and more.
+                    </p>
+                  </a>
+                </div>
+              </div>
             </div>
-          </a>
-        </div>
-        <!-- product - end -->
-        <!-- product - start -->
-        <div>
-          <a href="/automobile.html"
-            class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-            <img
-              src="https://images.unsplash.com/photo-1457332253637-21d324d25df9?auto=format&q=75&fit=crop&w=600&h=700"
-              loading="lazy" alt="Photo by Austin Wade"
-              class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-            <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
-              <span class="text-lg font-bold text-gray-800 lg:text-xl">Vehicles</span>
-            </div>
-          </a>
-        </div>
-        <!-- product - end -->
-
-        <!-- product - start -->
-        <div>
-          <a href="/gold.html"
-            class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-            <img
-              src="https://images.unsplash.com/photo-1640183295764-8dd9f9fd6139?auto=format&q=75&fit=crop&crop=top&w=600&h=700"
-              loading="lazy" alt="Photo by Austin Wade"
-              class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-            <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
-              <span class="text-lg font-bold text-gray-800 lg:text-xl">Jewellery</span>
-            </div>
-          </a>
-        </div>
-        <!-- product - end -->
-
-
-        <!-- product - start -->
-        <div>
-          <a href="/vegetable.html"
-            class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-            <img
-              src="https://images.unsplash.com/photo-1489450278009-822e9be04dff?auto=format&q=75&fit=crop&crop=top&w=600&h=700"
-              loading="lazy" alt="Photo by Austin Wade"
-              class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-            <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
-              <span class="text-lg font-bold text-gray-800 lg:text-xl">Vegetables</span>
-            </div>
-          </a>
-        </div>
-        <!-- product - end -->
+          </section>
+        </section>
+        <!-- description end  -->
       </div>
     </div>
-  </div>
 
-  <div class="mb-4" id="footer"></div>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4735648400097092"
-    crossorigin="anonymous"></script>
+    <div class="bg-white py-6 sm:py-8 lg:py-12" id="commodities">
+      <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+        <h2
+          class="mb-8 text-center text-2xl font-bold text-gray-800 md:mb-12 lg:text-3xl"
+        >
+          Check Commodity Prices in Nepal
+        </h2>
 
-  <script>
-    function loadHTMLComponent(id, filePath) {
-      fetch(filePath)
-        .then(response => response.text())
-        .then(data => {
-          document.getElementById(id).innerHTML = data;
-        });
-    }
+        <div
+          class="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-4"
+        >
+          <!-- product - start -->
+          <div>
+            <a
+              href="/fuel-prices.html"
+              class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1598185770201-9a0d00034e04?auto=format&q=75&fit=crop&w=600&h=700"
+                loading="lazy"
+                alt="Photo by Austin Wade"
+                class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+              />
 
-    loadHTMLComponent('header', 'components/header.html');
-    loadHTMLComponent('footer', 'components/footer.html');
-  </script>
-</body>
+              <div
+                class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center"
+              >
+                <span class="text-lg font-bold text-gray-800 lg:text-xl"
+                  >Fuel</span
+                >
+              </div>
+            </a>
+          </div>
+          <!-- product - end -->
+          <!-- product - start -->
+          <div>
+            <a
+              href="/car-prices.html"
+              class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1457332253637-21d324d25df9?auto=format&q=75&fit=crop&w=600&h=700"
+                loading="lazy"
+                alt="Photo by Austin Wade"
+                class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+              />
+              <div
+                class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center"
+              >
+                <span class="text-lg font-bold text-gray-800 lg:text-xl"
+                  >Vehicles</span
+                >
+              </div>
+            </a>
+          </div>
+          <!-- product - end -->
 
+          <!-- product - start -->
+          <div>
+            <a
+              href="/gold-prices.html"
+              class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1640183295764-8dd9f9fd6139?auto=format&q=75&fit=crop&crop=top&w=600&h=700"
+                loading="lazy"
+                alt="Photo by Austin Wade"
+                class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+              />
+
+              <div
+                class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center"
+              >
+                <span class="text-lg font-bold text-gray-800 lg:text-xl"
+                  >Jewellery</span
+                >
+              </div>
+            </a>
+          </div>
+          <!-- product - end -->
+
+          <!-- product - start -->
+          <div>
+            <a
+              href="/vegetable-prices.html"
+              class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1489450278009-822e9be04dff?auto=format&q=75&fit=crop&crop=top&w=600&h=700"
+                loading="lazy"
+                alt="Photo by Austin Wade"
+                class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+              />
+
+              <div
+                class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center"
+              >
+                <span class="text-lg font-bold text-gray-800 lg:text-xl"
+                  >Vegetables</span
+                >
+              </div>
+            </a>
+          </div>
+          <!-- product - end -->
+        </div>
+      </div>
+    </div>
+
+    <div class="mb-4" id="footer"></div>
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4735648400097092"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      function loadHTMLComponent(id, filePath) {
+        fetch(filePath)
+          .then((response) => response.text())
+          .then((data) => {
+            document.getElementById(id).innerHTML = data;
+          });
+      }
+
+      loadHTMLComponent("header", "components/header.html");
+      loadHTMLComponent("footer", "components/footer.html");
+    </script>
+  </body>
 </html>
