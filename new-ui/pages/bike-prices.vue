@@ -4,11 +4,8 @@ definePageMeta({
     layout: "layout"
 })
 
-const { data, pending, error } = useFetch('https://backend.nepalprices.com/api/bike-prices', {
-    headers: {
-        'x-api-key': 'LEDAYGANGAPP!@!APP'
-    }
-})
+const { data, pending, error } = makeAuthenticatedApiCall('/bike-prices')
+
 
 // Process the data
 const processedData = computed(() => {

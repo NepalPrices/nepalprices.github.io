@@ -3,11 +3,7 @@ definePageMeta({
     layout: "layout"
 })
 
-const { data, pending, error } = useFetch('https://backend.nepalprices.com/api/commodity-prices', {
-    headers: {
-        'x-api-key': 'LEDAYGANGAPP!@!APP'
-    }
-})
+const { data, pending, error } = makeAuthenticatedApiCall('/commodity-prices')
 
 // Pass the data to the Table component
 const tableData = computed(() => {

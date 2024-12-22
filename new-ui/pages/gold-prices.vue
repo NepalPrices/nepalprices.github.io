@@ -1,13 +1,12 @@
 <script setup>
+import { useRuntimeConfig } from '#app'
+
 definePageMeta({
     layout: "layout"
 })
 
-const { data, pending, error } = useFetch('https://backend.nepalprices.com/api/gold-prices', {
-    headers: {
-        'x-api-key': 'LEDAYGANGAPP!@!APP'
-    }
-})
+const { data, pending, error } = makeAuthenticatedApiCall('/gold-prices')
+
 
 // Pass the data to the Table component
 const tableData = computed(() => {
